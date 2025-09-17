@@ -653,7 +653,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   $("#menu-toggle").addEventListener("click", () => {
-    $("#nav-menu").classList.toggle("hidden");
+    $("#nav-menu").classList.toggle("active-menu");
   });
 
   $("#offer-clear").addEventListener("click", clearCart);

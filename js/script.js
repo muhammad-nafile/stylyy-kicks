@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           price
                         )}</p>
                         ${
-                          product.extra > 0
+                          mode === "offer" && product.extra > 0
                             ? `<span class="bg-red-100 text-red-700 text-xs font-semibold px-2 py-1 rounded-full">+${formatINR(
                                 product.extra
                               )}</span>`
@@ -235,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
     card.addEventListener("click", () => handleProductSelection(product, mode));
     card.querySelector(".view-details-btn").addEventListener("click", (e) => {
       e.stopPropagation();
-      showProductModal(product);
+      showProductModal(product, mode); // Pass the mode here
     });
     return card;
   }
@@ -252,7 +252,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  function showProductModal(product) {
+  function showProductModal(product, mode) {
     const modalContainer = $("#modal-container");
     const modal = document.createElement("div");
     modal.className =
@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           product.price
                         )}</p>
                         ${
-                          product.extra > 0
+                          mode === "offer" && product.extra > 0
                             ? `<p class="text-sm text-red-600">Note: This model has an extra charge of ${formatINR(
                                 product.extra
                               )} for the offer.</p>`

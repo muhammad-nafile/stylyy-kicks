@@ -28,7 +28,7 @@ const CATALOG = [
     name: "Nike SB Dunk Low x Otomo Katsuhiro",
     price: 2399,
     extra: 0,
-    img: "./products/nike-sb-dunk-otomo",
+    img: "./products/nike-sb-dunk-otomo.jpg",
     sizes: [6, 7, 8, 9, 10],
   },
   {

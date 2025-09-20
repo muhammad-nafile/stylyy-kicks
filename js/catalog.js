@@ -20,6 +20,7 @@ const CATALOG = [
     name: "Nike SB Dunk Low Greyish",
     price: 2399,
     extra: 0,
-    img: "./products/nike-sb-dunk-low-greyish",
-    sizes: [6, 7, 8, 9, 10]
+    img: "./products/nike-sb-dunk-low-greyish.jpg",
+    sizes: [6, 7, 8, 9, 10],
+  }
 ];

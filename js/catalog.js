@@ -6,6 +6,7 @@ const CATALOG = [
     extra: 150,
     img: "./products/nike-dunk-sb-low-cf.jpg",
     sizes: [6, 7, 8, 9],
+  },
   {
     id: "nike2",
     name: "Nike SB Dunk Low x Otomo Katsuhiro",

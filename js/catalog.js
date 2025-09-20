@@ -66,7 +66,7 @@ const CATALOG = [
   {
     id: "nike9",
     name: "Jordan Jumpman Jack TP Travis Scott Dark Mocha",
-    price: 2399,
+    price: 2699,
     extra: 0,
     img: "./products/jordan-jumpman-jack-tp-travis-scott-dark-mocha.jpg",
     sizes: [6, 7, 8, 9, 10],
@@ -74,7 +74,7 @@ const CATALOG = [
   {
     id: "nike10",
     name: "Nike Airforce Big Bank Chunky",
-    price: 2399,
+    price: 2599,
     extra: 0,
     img: "./products/nike-airforce-big-bank-chunky.jpg",
     sizes: [6, 7, 8, 9, 10],
